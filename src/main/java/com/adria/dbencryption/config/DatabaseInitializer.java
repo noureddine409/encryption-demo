@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ByteArrayResource;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.jdbc.datasource.init.DataSourceInitializer;
 import org.springframework.jdbc.datasource.init.ResourceDatabasePopulator;
 
@@ -43,6 +44,7 @@ public class DatabaseInitializer {
 
         // Set the modified SQL script content to the ResourceDatabasePopulator
         populator.addScript(resource);
+        populator.addScript(new ClassPathResource("data/enable_extensions.sql"));
 
         initializer.setDatabasePopulator(populator);
         return initializer;
