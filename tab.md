@@ -1,0 +1,11 @@
+| Aspect                   | Mono-Schema                                       | Multi-Schema                                      |
+|--------------------------|---------------------------------------------------|--------------------------------------------------|
+| Simplicity               | Simplifies database management by having all microservices share a single schema. | Introduces complexity by managing multiple schemas, each dedicated to a microservice. |
+| Consistency              | Easier to maintain data consistency since all microservices share the same schema. | Data consistency may be more challenging to maintain due to separate schemas for each microservice. |
+| Reporting and Analytics  | Simplifies cross-service reporting and analytics as all data is stored in one place. | Requires more effort for cross-service reporting and analytics due to data distributed across multiple schemas. |
+| Resource Utilization     | Potential for optimized resource utilization by pooling resources across microservices. | Resource utilization may vary across microservices, potentially leading to underutilization or overutilization of resources. |
+| Inter-Service Communication | Facilitates straightforward communication between microservices as they share the same database schema. | Communication between microservices may require additional mechanisms due to separate schemas. |
+| Data Sharing             | Enables easier data sharing between microservices as they have direct access to the same data. | Data sharing may require complex replication or synchronization mechanisms due to separate schemas. |
+| Schema Evolution         | Simplifies schema evolution management as all microservices share the same schema. | Requires coordination and compatibility checks for schema changes across multiple independent schemas. |
+| Cost Efficiency          | Potentially more cost-effective in terms of database licensing and infrastructure costs. | Costs may increase due to the overhead of managing multiple schemas and additional resources. |
+| Development Efficiency   | Promotes development efficiency by reducing the overhead of managing multiple schema definitions. | Requires additional effort for managing multiple schema definitions and access controls. |
