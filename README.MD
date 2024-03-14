@@ -50,7 +50,7 @@ Le service génère des résultats d'analyse détaillés pour chaque événement
 
 Ce service prend les résultats d'analyse générés par le Transaction Analysis Service et les traduit en alertes exploitables.
 Il classe les alertes en fonction de leur gravité et de leur urgence, selon les niveaux d'interprétation définis dans les paramètres.
-Les alertes sont ensuite transmises aux parties concernées pour une action appropriée.
+Les alertes sont ensuite transmises aux parties concernées pour appliquer les actions correctives nécessaire.
 ---
 Ce système modulaire et interconnecté permet une gestion efficace des événements de fraude, en garantissant une détection rapide et précise tout en offrant la flexibilité nécessaire pour s'adapter aux besoins spécifiques de chaque institution financière.
 
