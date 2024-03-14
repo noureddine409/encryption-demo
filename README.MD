@@ -7,11 +7,11 @@ Dans le monde dynamique des services bancaires, la sécurité et l'intégrité d
 
 ### Objectif du Projet
 
-Le système de détection de fraude a pour objectif principal de recevoir, analyser et signaler les événements provenant des systèmes bancaires. Ces événements comprennent une gamme variée de transactions, de mouvements de fonds et d'activités financières. Notre système est conçu pour identifier les schémas et les comportements suspects, permettant ainsi aux institutions financières de réagir rapidement pour prévenir les pertes liées à la fraude.
+Le système de détection de fraude a pour objectif principal de recevoir, analyser et signaler les événements provenant des systèmes bancaires. Ces événements comprennent une gamme variée de transactions, de mouvements de fonds et d'activités financières. Notre système est conçu pour identifier les schémas et les comportements suspects, permettant ainsi aux institutions financières de réagir rapidement pour prévenir les risques liées à la fraude.
 
 ### Flexibilité et Paramétrage
 
-Ce qui distingue notre système, c'est sa capacité à être entièrement paramétrable par l'administrateur du système externe. L'administrateur a la possibilité de définir et de configurer les règles de gestion spécifiques à l'environnement de leur institution. Cela comprend la paramétrisation des événements à surveiller, des sources de données à intégrer, des traitements à exécuter sur ces données et des résultats attendus de ces traitements. De plus, l'interprétation des résultats en termes de niveaux d'alerte est également configurable, permettant une adaptation précise aux besoins et aux politiques de sécurité de chaque institution.
+Ce qui distingue notre système, c'est sa capacité à être entièrement paramétrable par l'administrateur du système externe. L'administrateur à la possibilité de définir et de configurer les règles de gestion nécessaire . Cela comprend la paramétrisation des événements à surveiller, des sources de données à intégrer, des traitements à exécuter sur ces données et des résultats attendus de ces traitements. De plus, l'interprétation des résultats en termes de niveaux d'alerte est également configurable, permettant une adaptation précise aux besoins et aux politiques de sécurité de chaque institution.
 
 ### Avantages Attendus
 
